@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Music Player</title>
+    <link rel="stylesheet" href="MP.css" />
+  </head>
+  <body>
+    <audio loop src="icon.mp3" id="song"></audio>
+    <img src="icon.jpg" alt="background" id="BG" />
+    <div class="container">
+      <div class="song-name"></div>
+      <div class="song-title">Jaden Smith - Icon</div>
+      <img src="icon.jpg" alt="thumbnail" id="thumbnail" />
+      <div class="box"></div>
+      <img src="Play.png" alt="play/pause" onclick="playPause()" id="pp" />
+      <img src="nps.png" alt="nextSong" id="ns" onclick="nextSong()" />
+      <img src="nps.png" alt="previousSong" id="ps" onclick="previousSong()" />
+      <input
+        type="range"
+        id="progressBar"
+        min="0"
+        max=""
+        value="0"
+        onchange='const progressBar = document.querySelector("#progressBar");
+        document.querySelector("#song").currentTime = progressBar.value;'
+      />
+    </div>
+    <script src="MP.js"></script>
+  </body>
+</html>
