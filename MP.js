@@ -7,7 +7,7 @@ const song = document.querySelector("#song");
 var playing = true;
 var songs = ["icon.mp3", "bad guy.mp3", "lp.mp3", "on my own.mp3"],
   songIndex = 0;
-(thumbnails = ["icon.jpg", "be.jpg", "lp.jpeg", "tb2.jpg"]),
+(thumbnails = ["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQSCaJfLX-LEPmCHcz5fvkcZUrO2_5Z4LeaGe-HiuIYh829Q6YQ", "https://upload.wikimedia.org/wikipedia/en/3/38/When_We_All_Fall_Asleep%2C_Where_Do_We_Go%3F.png", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSo1RQ_vSELHhtffeMwTehFeUa9d7N_lwHeoZeovIN77uF9p67e", "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTob-tfpJQI1_J2pTsGaRh0tQT3oOUBsSdCrGbh790J1Was-koe"]),
   (songNames = [
     "Jaden Smith - Icon",
     "Billie Eilish - Bad Guy",
@@ -20,12 +20,12 @@ function playPause() {
     const song = document.querySelector("#song"),
       pp = document.querySelector("#pp"),
       thumbnail = document.querySelector("#thumbnail");
-    pp.src = "Pause.png";
+    pp.src = "https://icons-for-free.com/iconfiles/png/512/music+pause+play+stop+icon-1320185671881968262.png";
     song.play(); //plays the song
     playing = false;
     thumbnail.style.transform = "scale(1.2)";
   } else {
-    pp.src = "Play.png";
+    pp.src = "http://www.iconarchive.com/download/i91182/icons8/windows-8/Media-Controls-Play.ico";
     song.pause(); //pauses the song
     playing = true;
 
