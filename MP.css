@@ -39,6 +39,7 @@ body {
   position: absolute;
   width: 130%;
   transition: 1s;
+  z-index: 4;
 }
 
 .song-name {
