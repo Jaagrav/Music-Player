@@ -105,13 +105,17 @@ body {
   position: absolute;
   z-index: 2;
   height: 3px;
-  background: #000;
+  background: -webkit-linear-gradient(
+    0deg,
+    rgb(81, 255, 159),
+    rgb(96, 106, 255)
+  );
   width: 100%;
   border-radius: 10px;
   bottom: 7%;
 }
 
-#progressBar::-webkit-progress-thumb {
+#progressBar::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
   height: 5px;
