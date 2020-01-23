@@ -55,7 +55,7 @@ body {
   height: 190pt;
   width: 400pt;
   background: -webkit-linear-gradient(45deg, rgb(72, 0, 139), rgb(0, 199, 149));
-  z-index: 2;
+  z-index: 10;
   bottom: -15%;
   filter: blur(30px);
 }
