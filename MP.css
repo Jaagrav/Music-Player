@@ -32,13 +32,13 @@ body {
   background: #000;
   border-radius: 8px;
   box-shadow: 0 0 15px black;
+  z-index: 4;
 }
 
 #thumbnail {
   position: absolute;
   width: 130%;
   transition: 1s;
-  z-index: -2;
 }
 
 .song-name {
