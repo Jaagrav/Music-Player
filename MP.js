@@ -23,14 +23,12 @@ function playPause() {
     pp.src = "https://icons-for-free.com/iconfiles/png/512/music+pause+play+stop+icon-1320185671881968262.png";
     song.play(); //plays the song
     playing = false;
-    thumbnail.style.height = "160%";
     thumbnail.style.width = "160%";
   } else {
     pp.src = "http://www.iconarchive.com/download/i91182/icons8/windows-8/Media-Controls-Play.ico";
     song.pause(); //pauses the song
     playing = true;
     thumbnail.style.width = "130%";
-    thumbnail.style.height = "130%";
   }
 }
 
