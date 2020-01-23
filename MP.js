@@ -15,8 +15,8 @@ var songs = ["Jaden Smith - Icon.mp3", "Billie Eilish - bad guy (Lyrics).mp3", "
     "On My Own - Ross Lynch",
     "Night We Met - Lord Huron",
     "Show Yourself - Idina Menzel",
-    "Jar Of Hearts \nChristina Perri",
-    "The Lonely \nChristina Perri"
+    "Jar Of Hearts - Christina Perri",
+    "The Lonely - Christina Perri"
   ]);
 
 function playPause() {
