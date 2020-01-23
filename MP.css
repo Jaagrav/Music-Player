@@ -45,7 +45,7 @@ body {
   height: 190pt;
   width: 400pt;
   background: -webkit-linear-gradient(45deg, rgb(72, 0, 139), rgb(0, 199, 149));
-  z-index: 2;
+  z-index: 10;
   top: -25%;
   filter: blur(30px);
 }
@@ -76,7 +76,7 @@ body {
   filter: invert(1);
   cursor: pointer;
   bottom: 12%;
-  z-index: 2;
+  z-index: 11;
 }
 
 #ns,
@@ -87,7 +87,7 @@ body {
   filter: invert(1);
   cursor: pointer;
   bottom: 14%;
-  z-index: 2;
+  z-index: 11;
 }
 
 #ps {
