@@ -60,12 +60,13 @@ body {
 }
 
 .song-title {
-  position: relative;
+  position: absolute;
   z-index: 12;
   color: white;
   font-family: "Lobster", cursive;
   font-size: 30px;
-  top: -10%;
+  top: 10%;
+text-align: center;
 }
 
 #pp {
