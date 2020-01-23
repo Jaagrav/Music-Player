@@ -18,7 +18,7 @@
       <img src="http://www.iconarchive.com/download/i91182/icons8/windows-8/Media-Controls-Play.ico" alt="play/pause" onclick="playPause()" id="pp" />
       <img src="https://www.shareicon.net/data/512x512/2016/01/05/698429_forward_512x512.png" alt="nextSong" id="ns" onclick="nextSong()" />
       <img src="https://www.shareicon.net/data/512x512/2016/01/05/698429_forward_512x512.png" alt="previousSong" id="ps" onclick="previousSong()" />
-      <input
+      <progress
         type="range"
         id="progressBar"
         min="0"
@@ -26,7 +26,7 @@
         value="0"
         onchange='const progressBar = document.querySelector("#progressBar");
         document.querySelector("#song").currentTime = progressBar.value;'
-      />
+      ></progress>
     </div>
     <script src="MP.js"></script>
   </body>
