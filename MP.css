@@ -114,10 +114,11 @@ body {
 #progressBar::-webkit-progress-thumb {
   -webkit-appearance: none;
   appearance: none;
-  height: 3px;
-  width: 3px;
+  height: 5px;
+  width: 5px;
   border: 0;
-  background: transparent;
+  border-radius:50px;
+  background: #000;
 }
 
 #progressBar::-webkit-progress-bar {
