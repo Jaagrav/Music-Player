@@ -38,7 +38,7 @@ body {
   position: absolute;
   width: 130%;
   transition: 1s;
-
+  z-index: -2;
 }
 
 .song-name {
@@ -48,7 +48,6 @@ body {
   background: -webkit-linear-gradient(45deg, rgb(72, 0, 139), rgb(0, 199, 149));
   top: -25%;
   filter: blur(30px);
-  z-index:11;
 }
 
 .box {
