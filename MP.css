@@ -60,7 +60,7 @@ body {
 }
 
 .song-title {
-  position: absolute;
+  position: relative;
   z-index: 12;
   color: white;
   font-family: "Lobster", cursive;
